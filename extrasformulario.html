@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina.css">
+    <title>DJ-Paloma Latorre Heredia</title>
+</head>
+<body class="contacto_indez">
+    <header>
+        <div class="titulo_pag" align="center">MANDRAGORA</div>
+        <img src="img/gato.jpg" align="right" width="20px" height="20px" alt="gato">
+        <nav align=center class="navbar">
+            <ul>
+                <a href="index.html">
+                <li class="navItem">Inicio</li>
+                </a>
+                <a href="paginados.html">
+                <li class="navItem">Musica</li>
+                </a>
+                <a href="paginatres.html">
+                <li class="navItem">En vivo</li>
+                </a>
+                <a href="paginacuatro.html">
+                <li class="navItem">E-shop</li>
+                </a>
+                <a href="extrasformulario.html">
+                <li class="navItem">Contacto</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main class="container__contacto">
+        <section>
+            <h2 class="CONTACTO">Contactate con nosotros y enterate de las novedades</h2>
+        </section>
+        <section>
+            <form action="formulario.js" method="" enctype="">
+                <label class="m-8" for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" />
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" />
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña"/>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"/>
+                <hr/>
+                <p>Sexo</p>
+                <select name="sexo" id="sexo" size="3">
+                    <option value="F">Femenino</option>
+                    <option value="M">Masculino</option>
+                    <option value="O">Otro</option>
+                </select>
+                <hr />
+                <p>¿Quieres recibir informacion y novedades?</p>
+                <label for="si">Si</label>
+                <input type="radio" name="info" id="si">
+                <label for="no">No</label>
+                <input type="radio" name="info" id="no">
+                <hr/>
+                <textarea placeholder="Comentario"></textarea>
+                <hr/>
+                <input type="checkbox" name="aceptar" id="aceptar">
+                <label class="aceptarTerminos" for="aceptar">Acepto terminos y condiciones</label>
+                <br/>
+                <button type="submit">Enviar formulario<a href="extras.html"></a></button>
+                <button type="reset">Limpiar formulario</button>
+            </form>
+        </section>
+    </main>
+    
+    <hr/>
+</body>
+<footer redes>
+    <p> MANDRAGORA ©2022 (LOGO)</p>
+    <p>CONTACTO</p>
+   <p>RRSS</p>
+</footer>
+</html>

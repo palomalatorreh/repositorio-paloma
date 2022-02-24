@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: hungry_hunters;
+    src: url(Hungry\ Hunters.ttf);
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.e_shop{
+    background-image: url(./img/hojas.jpg);
+    background-color: rgba(0,0,0, 0.9);
+}
+.musica{
+    background-image: url(./img/fond.jpg);
+}
+.vivo{
+    background-image: url(./img/fondo.jpg);
+}
+.index{
+    background-image: linear-gradient(rgba(31, 17, 54, 0.87), white);
+}
+.contacto_indez{
+    background-color: rgba(0,0,0, 0.9);
+}
+header{
+    color: white;
+    background-color: black;
+    padding: 10px 0;
+}
+.header_container{
+    margin: 0 auto;
+}
+
+/*
+img[src="img/gato.jpg"]{
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    position: sticky;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: rgba(0,0,0, 0.8);
+}
+*/
+
+button[type="submit"]{
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+nav .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    box-shadow: 0 0 10px 0 25px rgba(0,0,0, 0.2);  
+}
+nav .navItem {
+    display: inline-block;
+    background-color: black;
+    color: rgba(221, 215, 215, 0.9);
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* INICIO */
+
+.hero{
+    background-image: url(./img/mandrag.jpg);
+    background-size:repeat;
+    height: 400px;
+    border-bottom: 10px solid black;
+}
+.about__Titulo{
+display: flex;
+flex-flow: column;
+color: white;
+background-color: rgba(0,0,0, 0.8);
+width: 50%;
+padding-bottom: 20px;
+}
+.about__Text{
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    font-family: kremlin;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 20px 0;
+}
+.container__tabla{
+    background-image: url(./img/galaxys.jpg);
+}
+.table{
+    background-color: rgba(255, 255, 255, 0.63);
+    height: fit-content;
+    width: 50%;
+    margin: 20px auto;
+}
+.titulo_pag{
+font-family: hungry_hunters;
+font-size: 130px;
+
+}
+.tittle__Tabla{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url(./img/montain.jpg)
+}
+.cardsContainer{
+    margin: 0 auto;
+}
+.tittle_song{
+    margin: 10px;
+}
+.fondo{
+    margin: 15px;
+    height: 220px;
+    width: 280px;
+    background-color: rgba(223, 223, 223, 0.8); 
+}
+.cardsContainer iframe{
+    place-self: center;
+    margin: 15px auto;
+    width: 280px;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+/* EN VIVO */
+
+.envivo{
+    display: flex;
+    flex-flow: column wrap;
+}
+.titulo__Envivo{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    margin-top: 0px;
+    text-shadow: 0 15px 35px rgba(255, 255, 255, 0.4) ; 
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.img__Envivo{
+    display: flex;
+    justify-content: center;
+}
+img[src="mandrashowdos.jpg"]{
+    display: block;
+    justify-content: center;
+}
+.button__Comprar{
+    display: inline-block;
+    justify-content: center;
+    margin: 20px 400px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-style: bold;
+    color: white;
+    background-color: black;
+}
+.videos_show {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+iframe{
+    margin: 10px 30px;
+    display: flex;
+}
+.tituloDos__envivo{
+    margin-left: 30px;
+    text-decoration-line: underline;
+    color: white;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 10px 0;
+}
+
+
+/* MUSICA ALBUMES */
+
+.albumes{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 3opx;
+}
+
+
+/* CONTACTO */ 
+
+.CONTACTO{
+    font-style: italic bold;
+    color: white;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.audio_tittle{
+    display: flex;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+main h3{
+    display: flex;
+    justify-content: center;
+}
+form{
+    color: white;
+}
+footer{
+    color: white;
+    background-color: black;
+    padding: 10px 0;
+}
+.fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fotos .ft{
+    display: grid;
+    width: 100%;
+}
+.container__audio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/aquados.jpg);
+    height: 150px;
+    opacity: 0.9;
+    padding: 15px 0;
+    border-bottom: 10px solid black;
+}
+.albumes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.album__video{
+    display: grid;
+    justify-items: center;
+}
+
+
+@media (max-width: 820px){
+    body{
+        font-size: 14px;
+    }
+    .titulo_pag{
+        font-size: 80px;
+    }
+
+    /*MEDIA 820 INICIO*/
+    .about__Titulo{
+        width: 65%;
+        font-size: 12px;
+        padding: 0 auto;
+    }
+    .about__Text{
+        width: 65%;
+        font-size: 10px;
+        height: fit-content;
+        padding: 0 auto;
+    }
+    img[src="img/gato.jpg"]{
+        display: none;
+    }
+    .hero{
+    border-bottom: 4px solid black;
+    }
+    .fondo iframe{
+        margin: 0 auto;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+    .fondo{
+        margin: 3px;
+        height: fit-content;
+        width: 90%;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .container__audio{
+        height: 100px;
+        opacity: 0.9;
+        padding: 15px 0;
+        border-bottom: 4px solid black;
+    }
+    .albumesTitulo{
+        font-size: 24px;
+        margin: 20px auto;
+    }
+    /*MEDIA 820 EN VIVO*/
+    .envivo{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .titulo__Envivo{
+        display: block;
+        position: absolute;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        color: white;
+    }
+    img[src="mandrashowdos.jpg"]{
+        display: block;
+        position: absolute;
+        margin: 30px auto;
+    }
+    
+    .button__Comprar{
+        width: 250px;
+        font-size: 12px;
+    }
+    .videos_show {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .videos_show iframe{
+        margin: 10px 30px;
+        width: fit-content;
+        height: fit-content;
+    }
+    .tituloDos__envivo{
+        margin-left: 30px;
+        padding: 10px 100px;
+    }
+
+    /*Musica*/
+    .albumes{
+        display: grid;
+        width: 100%;
+        height: fit-content;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .album__video{
+        display: grid;
+        justify-items: center;
+    }
+    .album__video iframe{
+        width: 350px;
+        height: auto;
+    }
+
+    /*E-SHOP*/
+
+
+}
+@media (max-width: 420px){
+    body{
+        font-size: 10px;
+    }
+    .titulo_pag{
+        font-size: 38px;
+    }
+    nav{
+        display: none;  
+    }
+
+    /*MEDIA 420 INICIO*/
+    .about__Titulo{
+        width: 100%;
+        font-size: 10px;
+        padding: 0 auto;
+    }
+    .about__Text{
+        width: 100%;
+        font-size: 10px;
+        height: fit-content;
+        padding: 0 auto;
+    }
+    img[src="img/gato.jpg"]{
+        display: none;
+    }
+    .hero{
+    height: 400px;
+    border-bottom: 4px solid black;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        row-gap: 5px;
+    }
+    .fondo{
+        margin: 0 auto;
+        height: fit-content;
+        width: fit-content;
+        margin: 5px auto 0px auto; 
+    }
+    .fondo iframe{
+        margin: 0 auto;
+    }
+    .container__audio{
+        height: 100px;
+        padding: 15px 0;
+        border-bottom: 4px solid black;
+    }
+
+    /*MUSICA*/
+    .albumes{
+        display: grid;
+        width: 100%;
+        height: fit-content;
+        grid-template-columns: 1fr;
+        grid-template-rows: (5, 1fr);
+        row-gap: 10px;
+    }
+    .album__video iframe{
+        width: 350px;
+        height: auto;
+    }
+
+    /*MEDIA 420 ENVIVO*/
+    .envivo{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .titulo__Envivo{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    img[src="mandrashowdos.jpg"]{
+        display: block;
+    }
+    .button__Comprar{
+        width: 200px;
+        font-size: 12px;
+    }
+    .videos_show {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    iframe{
+        margin: 10px 30px;
+        max-width: 310px;
+        height: fit-content;
+    }
+    .tituloDos__envivo{
+        margin-left: 30px;
+        padding: 10px 100px;
+    }
+}
