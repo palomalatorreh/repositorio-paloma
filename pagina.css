@@ -85,6 +85,7 @@ nav .navItem {
 }
 
 
+
 .about__Titulo{
 display: flex;
 flex-flow: column;
@@ -269,6 +270,20 @@ footer{
     display: grid;
     width: 100%;
 }
+.fotos{
+    overflow: hidden;
+}
+.contenedor_foto{
+    overflow: hidden;
+}
+.fotos img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+}
+.fotos img:hover{
+    transform: scale(1.2);
+}
 .container__audio{
     display: flex;
     flex-direction: column;
@@ -279,6 +294,7 @@ footer{
     padding: 15px 0;
     border-bottom: 10px solid black;
 }
+
 .albumes{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
