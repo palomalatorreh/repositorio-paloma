@@ -10,6 +10,7 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
 .e_shop{
     background-image: url(./img/hojas.jpg);
@@ -25,7 +26,7 @@ body{
     background-image: linear-gradient(rgba(31, 17, 54, 0.87), white);
 }
 .contacto_indez{
-    background-color: rgba(0,0,0, 0.9);
+    background-image: url(./img/chain.jpg);
 }
 header{
     color: white;
@@ -109,7 +110,6 @@ padding-bottom: 20px;
     background-image: url(./img/galaxys.jpg);
 }
 .table{
-    background-color: rgba(255, 255, 255, 0.63);
     height: fit-content;
     width: 50%;
     margin: 20px auto;
@@ -270,6 +270,7 @@ footer{
     display: grid;
     width: 100%;
 }
+/*
 .fotos{
     overflow: hidden;
 }
@@ -284,6 +285,7 @@ footer{
 .fotos img:hover{
     transform: scale(1.2);
 }
+*/
 .container__audio{
     display: flex;
     flex-direction: column;
