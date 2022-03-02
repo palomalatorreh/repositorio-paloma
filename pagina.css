@@ -318,7 +318,10 @@ footer{
     justify-items: center;
 }
 */
-
+.btn-color{
+    color: black;
+    background-color: rgba(109, 15, 67, 0.89);
+}
 @media (max-width: 820px){
     body{
         font-size: 14px;
@@ -408,6 +411,9 @@ footer{
         margin-left: 30px;
         padding: 10px 100px;
     }
+    .tittle__Tabla{
+        font-size: 14px;
+    }
 
     /*Musica*/
     .albumes{
@@ -432,7 +438,7 @@ footer{
 }
 @media (max-width: 420px){
     body{
-        font-size: 10px;
+        font-size: 12px;
     }
     .titulo_pag{
         font-size: 38px;
@@ -478,6 +484,9 @@ footer{
         height: 100px;
         padding: 15px 0;
         border-bottom: 4px solid black;
+    }
+    .tittle__Tabla{
+        font-size: 12px;
     }
 
     /*MUSICA*/
