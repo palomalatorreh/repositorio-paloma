@@ -8,9 +8,9 @@
     src: url(Hungry\ Hunters.ttf);
 }
 
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+body{ 
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 16px;
 }
 .e_shop{
     background-image: url(./img/hojas.jpg);
@@ -31,7 +31,6 @@ body{
 header{
     color: white;
     background-color: black;
-    padding: 10px 0;
 }
 .header_container{
     margin: 0 auto;
@@ -59,18 +58,22 @@ nav .navbar{
     justify-content: space-evenly;
     background-color: black;
     box-shadow: 0 0 10px 0 25px rgba(0,0,0, 0.2);  
+    font-size: 18px;
 }
 nav .navItem {
     display: inline-block;
     background-color: black;
     color: rgba(221, 215, 215, 0.9);
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
+    border-radius: 5px;
     margin-left: 15px;
     margin-right: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     transition: background-color 0,5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 .navItem:hover{
     background-color: rgba(109, 15, 67, 0.89);
@@ -113,6 +116,8 @@ padding-bottom: 20px;
     height: fit-content;
     width: 50%;
     margin: 20px auto;
+    background-color: black;
+    color: white;
 }
 .titulo_pag{
 font-family: hungry_hunters;
@@ -137,7 +142,8 @@ to{
     justify-content: center;
     color: white;
     background-color: black;
-    padding: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
 }
 .cards{
     display: grid;
