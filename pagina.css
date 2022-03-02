@@ -13,8 +13,7 @@ body{
     font-size: 16px;
 }
 .e_shop{
-    background-image: url(./img/hojas.jpg);
-    background-color: rgba(0,0,0, 0.9);
+    background-image: url(./img/fondotripy.jpg);
 }
 .musica{
     background-image: url(./img/fond.jpg);
@@ -239,6 +238,11 @@ iframe{
     margin: 10px 3opx;
 }
 
+.boton_comprarMerch{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
 
 /* CONTACTO */ 
 
