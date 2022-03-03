@@ -333,12 +333,12 @@ footer{
     /*MEDIA 820 INICIO*/
     .about__Titulo{
         width: 65%;
-        font-size: 12px;
+        font-size: 16px;
         padding: 0 auto;
     }
     .about__Text{
         width: 65%;
-        font-size: 10px;
+        font-size: 14px;
         height: fit-content;
         padding: 0 auto;
     }
@@ -438,7 +438,7 @@ footer{
 }
 @media (max-width: 420px){
     body{
-        font-size: 12px;
+        font-size: 14px;
     }
     .titulo_pag{
         font-size: 38px;
@@ -450,12 +450,12 @@ footer{
     /*MEDIA 420 INICIO*/
     .about__Titulo{
         width: 100%;
-        font-size: 10px;
+        font-size: 16px;
         padding: 0 auto;
     }
     .about__Text{
         width: 100%;
-        font-size: 10px;
+        font-size: 12px;
         height: fit-content;
         padding: 0 auto;
     }
