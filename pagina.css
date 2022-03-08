@@ -86,14 +86,14 @@ nav .navItem {
     border-radius: 5px;
     margin: 0 15px;
     padding: 2 10px;
-    transition: background-color: 0,5s;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    transition: color: 0,5s;
 }
 .navItem:hover{
     background-color: rgba(109, 15, 67, 0.89);
+    transition: background-color 0,5s;
     color: black;
+    transition: color 0,5s;
 }
 
 
