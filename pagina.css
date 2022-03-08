@@ -9,32 +9,56 @@
 }
 
 body{ 
-    font-family: 'Times New Roman', Times, serif !important;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     font-size: 16px;
 }
 .e_shop{
+    width: 100%;
     background-image: url(./img/fondotripy.jpg);
 }
 .musica{
+    width: 100%;
     background-image: url(./img/fond.jpg);
 }
 .vivo{
+    width: 100%;
     background-image: url(./img/fondo.jpg);
 }
 .index{
+    width: 100%;
     background-image: linear-gradient(rgba(31, 17, 54, 0.87), white);
 }
 .contacto_indez{
+    width: 100%;
     background-image: url(./img/chain.jpg);
 }
+
 header{
+    width: 100%;
     color: white;
     background-color: black;
 }
-.header_container{
-    margin: 0 auto;
+.tittle__pag{
+    font-family: hungry_hunters;
+    font-size: 140px;
+    margin: 0;
 }
-
+/*
+    animation-name: img;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+    @keyframes img{
+    from{
+        transform: translate(-20px);
+    }
+    to{
+        transform: translate(20px);
+    }
+    }
+*/
 /*
 img[src="img/gato.jpg"]{
     width: 70px;
@@ -46,18 +70,12 @@ img[src="img/gato.jpg"]{
     border-color: rgba(0,0,0, 0.8);
 }
 */
-
-button[type="submit"]{
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 15px;
-}
 nav .navbar{
     display: flex;
     justify-content: space-evenly;
     background-color: black;
-    box-shadow: 0 0 10px 0 25px rgba(0,0,0, 0.2);  
     font-size: 18px;
+    margin: 0 auto;
 }
 nav .navItem {
     display: inline-block;
@@ -66,40 +84,34 @@ nav .navItem {
     font-weight: bold;
     padding: 5px;
     border-radius: 5px;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    transition: background-color 0,5s;
+    margin: 0 15px;
+    padding: 2 10px;
+    transition: background-color: 0,5s;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
+    transition: color: 0,5s;
 }
 .navItem:hover{
     background-color: rgba(109, 15, 67, 0.89);
     color: black;
 }
+
+
 /* INICIO */
 
 .hero{
     background-image: url(./img/mandrag.jpg);
     background-size:repeat;
     height: 400px;
-    border-bottom: 10px solid black;
 }
-
-
-
-.about__Titulo{
-display: flex;
-flex-flow: column;
-color: white;
-background-color: rgba(0,0,0, 0.8);
-width: 50%;
-padding-bottom: 20px;
+.about__tittle{
+    color: white;
+    background-color: rgba(0,0,0, 0.8);
+    width: 50%;
+    padding-bottom: 20px;
+    margin: 0;
 }
-.about__Text{
-    display: flex;
-    flex-flow: row wrap;
+.about__text{
     width: 50%;
     font-family: kremlin;
     color: white;
@@ -108,7 +120,27 @@ padding-bottom: 20px;
     background-color: rgba(0,0,0, 0.8);
     padding: 20px 0;
 }
-.container__tabla{
+.audio__tittle{
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+}
+.container__audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/aquados.jpg);
+    height: 100px;
+}
+.container__cards{
+    margin: 0 auto;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url(./img/montain.jpg)
+}
+.container__table{
     background-image: url(./img/galaxys.jpg);
 }
 .table{
@@ -118,41 +150,14 @@ padding-bottom: 20px;
     background-color: black;
     color: white;
 }
-.titulo_pag{
-font-family: hungry_hunters;
-font-size: 130px;
-animation-name: img;
-animation-duration: 1s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-}
-@keyframes img{
-from{
-    transform: translate(-20px);
-}
-to{
-    transform: translate(20px);
-}
-}
-
-
-.tittle__Tabla{
-    display: flex;
-    justify-content: center;
+.tittle__table{
+    text-align: center;
     color: white;
     background-color: black;
-    padding-bottom: 10px;
+    padding: 5px;
     margin: 0 auto;
 }
-.cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    background-image: url(./img/montain.jpg)
-}
-.cardsContainer{
-    margin: 0 auto;
-}
+
 .tittle_song{
     margin: 10px;
 }
@@ -162,7 +167,7 @@ to{
     width: 280px;
     background-color: rgba(223, 223, 223, 0.8); 
 }
-.cardsContainer iframe{
+.container__cards iframe{
     place-self: center;
     margin: 15px auto;
     width: 280px;
@@ -177,18 +182,17 @@ nav ul a{
     display: flex;
     flex-flow: column wrap;
 }
-.titulo__Envivo{
+.tittle__envivo{
     display: flex;
     justify-content: center;
     font-style: italic;
-    margin-top: 0px;
     text-shadow: 0 15px 35px rgba(255, 255, 255, 0.4) ; 
     color: rgb(0, 0, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     font-weight: bold;
 }
-.img__Envivo{
+.img__envivo{
     display: flex;
     justify-content: center;
 }
@@ -196,7 +200,7 @@ img[src="mandrashowdos.jpg"]{
     display: block;
     justify-content: center;
 }
-.button__Comprar{
+.button__comprar{
     display: inline-block;
     justify-content: center;
     margin: 20px 400px;
@@ -208,11 +212,14 @@ img[src="mandrashowdos.jpg"]{
     cursor: pointer;
     transition: all 0,7s;
 }
-.button__Comprar:hover{
+.button__comprar:hover{
+    background-color: rgb(109, 15, 67);
+}
+.button__comprar:active{
     background-color: white;
     color: black;
 }
-.videos_show {
+.videos__show {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -221,7 +228,7 @@ iframe{
     margin: 10px 30px;
     display: flex;
 }
-.tituloDos__envivo{
+.tittleDos__envivo{
     margin-left: 30px;
     text-decoration-line: underline;
     color: white;
@@ -229,19 +236,23 @@ iframe{
     padding: 10px 0;
 }
 
-
 /* MUSICA ALBUMES */
-
 .albumes{
     display: flex;
     flex-flow: row wrap;
-    margin: 10px 3opx;
+    margin: 10px 20px;
 }
 
-.boton_comprarMerch{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
+.buttom__comprarMerch{
+    margin-top: 25px;
+    padding: 7px 10px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.buttom__comprarMerch:hover{
+    border: 2px solid rgb(18, 199, 18);
 }
 
 /* CONTACTO */ 
@@ -252,14 +263,13 @@ iframe{
     font-weight: lighter;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.audio_tittle{
-    display: flex;
-    padding: 4px;
-    color: white;
-    background-color: rgba(0, 0, 0, 1);
-    border-radius: 3px;
+button[type="submit"]{
+    font-weight: bold;
+    color: rgb(36, 34, 34);
+    cursor: pointer;
+    margin-top: 15px;
 }
+
 main h3{
     display: flex;
     justify-content: center;
@@ -284,9 +294,7 @@ footer{
 .fotos{
     overflow: hidden;
 }
-.contenedor_foto{
-    overflow: hidden;
-}
+
 .fotos img {
     width: 100%;
     height: 100%;
@@ -296,16 +304,6 @@ footer{
     transform: scale(1.2);
 }
 */
-.container__audio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(./img/aquados.jpg);
-    height: 150px;
-    opacity: 0.9;
-    padding: 15px 0;
-    border-bottom: 10px solid black;
-}
 /*
 .albumes{
     
@@ -318,25 +316,60 @@ footer{
     justify-items: center;
 }
 */
-.btn-color{
+.btnRegistrarse--color{
     color: black;
     background-color: rgba(109, 15, 67, 0.89);
+    font-weight: bold;
 }
+footer p{
+    margin: 0;
+}
+footer ul {
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    margin: 0 20px;
+    padding: 0;
+    justify-items: center;
+    border-bottom: 0 5px;
+}
+.description__elements{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: 14px auto;
+}
+.contene{
+    overflow: hidden;
+}
+.efectoScale__img{
+    cursor: pointer;
+    transition: 1s;
+}
+.efectoScale__img:hover{
+    transform: scale(1.1);
+}
+
 @media (max-width: 820px){
     body{
         font-size: 14px;
     }
-    .titulo_pag{
+    .tittle__pag{
         font-size: 80px;
     }
 
     /*MEDIA 820 INICIO*/
-    .about__Titulo{
+    .about__tittle{
         width: 65%;
         font-size: 16px;
         padding: 0 auto;
     }
-    .about__Text{
+    .about__text{
         width: 65%;
         font-size: 14px;
         height: fit-content;
@@ -369,7 +402,7 @@ footer{
         padding: 15px 0;
         border-bottom: 4px solid black;
     }
-    .albumesTitulo{
+    .albumesTittle{
         font-size: 24px;
         margin: 20px auto;
     }
@@ -379,7 +412,7 @@ footer{
         flex-flow: row wrap;
         justify-content: center;
     }
-    .titulo__Envivo{
+    .tittle__envivo{
         display: block;
         position: absolute;
         margin-top: 10px;
@@ -393,16 +426,16 @@ footer{
         margin: 30px auto;
     }
     
-    .button__Comprar{
+    .button__comprar{
         width: 250px;
         font-size: 12px;
     }
-    .videos_show {
+    .videos__show {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
-    .videos_show iframe{
+    .videos__show iframe{
         margin: 10px 30px;
         width: fit-content;
         height: fit-content;
@@ -411,7 +444,7 @@ footer{
         margin-left: 30px;
         padding: 10px 100px;
     }
-    .tittle__Tabla{
+    .tittle__table{
         font-size: 14px;
     }
 
@@ -434,13 +467,20 @@ footer{
 
     /*E-SHOP*/
 
+    footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-items: center;
+}
 
 }
 @media (max-width: 420px){
     body{
         font-size: 14px;
     }
-    .titulo_pag{
+    .tittle__pag{
         font-size: 38px;
     }
     nav{
@@ -448,12 +488,12 @@ footer{
     }
 
     /*MEDIA 420 INICIO*/
-    .about__Titulo{
+    .about__tittle{
         width: 100%;
         font-size: 16px;
         padding: 0 auto;
     }
-    .about__Text{
+    .about__text{
         width: 100%;
         font-size: 12px;
         height: fit-content;
@@ -485,7 +525,7 @@ footer{
         padding: 15px 0;
         border-bottom: 4px solid black;
     }
-    .tittle__Tabla{
+    .tittle__table{
         font-size: 12px;
     }
 
@@ -509,7 +549,7 @@ footer{
         flex-flow: row wrap;
         justify-content: center;
     }
-    .titulo__Envivo{
+    .tittle__envivo{
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 30px;
@@ -517,11 +557,11 @@ footer{
     img[src="mandrashowdos.jpg"]{
         display: block;
     }
-    .button__Comprar{
+    .button__comprar{
         width: 200px;
         font-size: 12px;
     }
-    .videos_show {
+    .videos__show {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
