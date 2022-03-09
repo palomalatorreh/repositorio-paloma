@@ -1,0 +1,19 @@
+{
+  "name": "programacioncoderhouse",
+  "version": "1.0.0",
+  "description": "Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass style.scss style.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palomalatorreh/repositorio-paloma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palomalatorreh/repositorio-paloma/issues"
+  },
+  "homepage": "https://github.com/palomalatorreh/repositorio-paloma#readme"
+}

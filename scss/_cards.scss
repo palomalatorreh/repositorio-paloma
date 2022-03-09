@@ -1,0 +1,61 @@
+.mainCards .tittle__table{
+    text-align: center;
+    color: white;
+    background-color: $colorBlack;
+    padding: $paddingTitulos;
+    margin: 0 auto;
+}
+    section .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        background-image: url(./img/montain.jpg)
+    }
+        article .fondo{
+            margin: 15px;
+            height: 220px;
+            width: 280px;
+            background-color: rgba(223, 223, 223, 0.8); 
+        }
+            .container__cards iframe{
+                place-self: center;
+                margin: 15px auto;
+                width: 280px;
+            }
+                .tittle__song{
+                    margin: 10px;
+                }
+
+@media (max-width: $mediaTablet){
+    .fondo iframe{
+        margin: 0 auto;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+    .fondo{
+        margin: 3px;
+        height: fit-content;
+        width: 90%;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+@media (max-width: $mediaMovil){
+    .cards{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        row-gap: 5px;
+    }
+    .fondo{
+        margin: 0 auto;
+        height: fit-content;
+        width: fit-content;
+        margin: 5px auto 0px auto; 
+    }
+    .fondo iframe{
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: hungry_hunters;
+    src: url(Hungry\ Hunters.ttf);
+}
+
+body{ 
+    width: $widthPag;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 16px;
+}
+.e_shop{
+    width: $widthPag;
+    background-image: url(./img/fondotripy.jpg);
+}
+.musica{
+    width: $widthPag;
+    background-image: url(./img/fond.jpg);
+}
+.vivo{
+    width: $widthPag;
+    background-image: url(./img/fondo.jpg);
+}
+.index{
+    width: $widthPag;
+    background-image: linear-gradient(rgba(31, 17, 54, 0.87), white);
+}
+.contacto_indez{
+    width: $widthPag;
+    background-image: url(./img/chain.jpg);
+}
+
+@media (max-width: $mediaTablet){
+    body{
+        font-size: 14px;
+    }
+}
+@media (max-width: $mediaMovil){
+    body{
+        font-size: 14px;
+    }
+}

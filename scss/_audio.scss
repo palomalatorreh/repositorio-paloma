@@ -1,0 +1,31 @@
+section{
+    h3 .tittle__table{
+        text-align: center;
+        color: white;
+        background-color: $colorBlack;
+        padding: $paddingTitulos;
+        margin: 0 auto;
+    }
+    div .container__audio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./img/aquados.jpg);
+        height: 100px;
+    }
+}
+@media (max-width: $mediaTablet){
+    .container__audio{
+        height: 100px;
+        opacity: 0.9;
+        padding: 15px 0;
+        border-bottom: 4px solid $colorBlack;
+    }
+}
+@media (max-width: $mediaMovil){
+    .container__audio{
+        height: 100px;
+        padding: 15px 0;
+        border-bottom: 4px solid black;
+    }
+}

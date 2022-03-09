@@ -1,0 +1,79 @@
+@font-face{
+    font-family: hungry_hunters;
+    src: url(Hungry\ Hunters.ttf);
+}
+
+header{
+    color: white;
+    background-color: $colorBlack;
+
+    .tittle__pag{
+        font-family: hungry_hunters;
+        font-size: 140px;
+        margin: 0;
+    }
+    nav .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: $colorBlack;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+        nav ul a{
+            text-decoration: none;
+        }
+            .navItem{
+                display: inline-block;
+                background-color: $colorBlack;
+                color: rgba(221, 215, 215, 0.9);
+                font-weight: bold;
+                padding: 5px;
+                border-radius: 5px;
+                margin: 0 15px;
+                padding: 2 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+
+                &:hover{
+                    background-color: rgba(109, 15, 67, 0.89);
+                    transition: background-color 0,5s;
+                    color: $colorBlack;
+                    transition: color 0,5s;
+                }
+            }
+}
+@media (max-width: $mediaTablet){
+    .tittle__pag{
+        font-size: 80px;
+    }
+    .about__tittle{
+        width: 65%;
+        font-size: 16px;
+        padding: 0 auto;
+    }
+    .about__text{
+        width: 65%;
+        font-size: 14px;
+        height: fit-content;
+        padding: 0 auto;
+    }
+}
+@media (max-width: $mediaMovil){
+    .tittle__pag{
+        font-size: 38px;
+    }
+    nav{
+        display: none;  
+    }
+    .about__tittle{
+        width: 100%;
+        font-size: 16px;
+        padding: 0 auto;
+    }
+    .about__text{
+        width: 100%;
+        font-size: 12px;
+        height: fit-content;
+        padding: 0 auto;
+    }
+}
