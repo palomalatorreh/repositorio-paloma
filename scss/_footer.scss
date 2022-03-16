@@ -1,6 +1,14 @@
-footer p{
-    margin: 0;
-
+$mapBotones:(instagram: #E1306C, spotify:#405DE6, twitter: #1DA1F2);
+@each $var, $color in $mapBotones {
+    .#{$var}{
+        color: $color, instagram;
+        
+    } 
+} 
+footer{
+    p{
+        margin: 0;
+    }
     ul {
         list-style: none;
         margin: 0 auto;
@@ -16,4 +24,8 @@ footer p{
             border-bottom: 0 5px;
         }
     }
-}    
+    .instagram{
+        background-color: map-get($mapBotones, instagram);
+    }
+    
+}

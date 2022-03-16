@@ -1,0 +1,16 @@
+section{
+    form{
+        color: white;
+    }
+    button[type="submit"]{
+        font-weight: bold;
+        color: rgb(36, 34, 34);
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .btnRegistrarse--color{
+        color: black;
+        background-color: rgba(109, 15, 67, 0.89);
+        font-weight: bold;
+    }
+}

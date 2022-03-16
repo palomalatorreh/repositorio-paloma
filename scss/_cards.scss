@@ -1,10 +1,11 @@
-.mainCards .tittle__table{
-    text-align: center;
-    color: white;
-    background-color: $colorBlack;
-    padding: $paddingTitulos;
-    margin: 0 auto;
-}
+.mainCards{
+    .tittle__table{
+        text-align: center;
+        color: white;
+        background-color: $colorBlack;
+        padding: $paddingTitulos;
+        margin: 0 auto;
+    }
     section .cards{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -25,6 +26,7 @@
                 .tittle__song{
                     margin: 10px;
                 }
+}                
 
 @media (max-width: $mediaTablet){
     .fondo iframe{

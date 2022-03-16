@@ -3,8 +3,8 @@ section .container__table{
     .tittle__table{
         text-align: center;
         color: white;
-        background-color: black;
-        padding: 5px;
+        background-color: $colorBlack;
+        padding: $paddingTitulos;
         margin: 0 auto;
     }
 }
