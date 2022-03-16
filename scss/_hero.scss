@@ -20,12 +20,12 @@ section .hero{
         padding: 20px 0;
     }
 }
-@media (max-width: $mediaTablet){
+@media (max-width: 820px){
     .hero{
         border-bottom: 4px solid $colorBlack;   
     }
 }
-@media (max-width: $mediaMovil){
+@media (max-width: 420px){
     .hero{
         height: 400px;
         border-bottom: 4px solid $colorBlack;

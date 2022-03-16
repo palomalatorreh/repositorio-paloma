@@ -42,7 +42,7 @@ header{
                 }
             }
 }
-@media (max-width: $mediaTablet){
+@media (max-width: 820px){
     .tittle__pag{
         font-size: 80px;
     }
@@ -58,7 +58,7 @@ header{
         padding: 0 auto;
     }
 }
-@media (max-width: $mediaMovil){
+@media (max-width: 420px){
     .tittle__pag{
         font-size: 38px;
     }
