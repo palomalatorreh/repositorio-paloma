@@ -5,10 +5,8 @@ $mapBotones:(instagram: #E1306C, spotify:#405DE6, twitter: #1DA1F2);
     .#{$var}{
         color: $color;
     } 
-} 
     .instagram: ($mapBotones, instagram);
     .spotify: ($mapBotones, spotify);
     .twitter: ($mapBotones, twitter);
-
-
+}
     

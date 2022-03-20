@@ -24,10 +24,22 @@ section .hero{
     .hero{
         border-bottom: 4px solid $colorBlack;   
     }
+    .about__tittle{
+        font-size: 14px;
+    }
+    .about__text{
+        font-size: 11px;
+    }
 }
 @media (max-width: 420px){
     .hero{
         height: 400px;
         border-bottom: 4px solid $colorBlack;
+    }
+    .about__tittle{
+        font-size: 14px;
+    }
+    .about__text{
+        font-size: 11px;
     }
 }

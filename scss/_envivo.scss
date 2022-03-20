@@ -50,10 +50,14 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(2, 1fr);
+                justify-content: center;
             }
-            iframe{
+            .videos__show iframe{
                 margin: 10px 30px;
-                display: flex;
+                width: fit-content;
+                height: fit-content;
+                max-width: 1200px;
+                justify-content: center;
             }
 }
 

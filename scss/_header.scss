@@ -15,7 +15,7 @@ header{
     nav .navbar{
         display: flex;
         justify-content: space-evenly;
-        background-color: $colorBlack;
+        background-color: black;
         font-size: 18px;
         margin: 0 auto;
     }
@@ -24,7 +24,7 @@ header{
         }
             .navItem{
                 display: inline-block;
-                background-color: $colorBlack;
+                background-color: black;
                 color: rgba(221, 215, 215, 0.9);
                 font-weight: bold;
                 padding: 5px;
@@ -37,7 +37,7 @@ header{
                 &:hover{
                     background-color: rgba(109, 15, 67, 0.89);
                     transition: background-color 0,5s;
-                    color: $colorBlack;
+                    color: black;
                     transition: color 0,5s;
                 }
             }
@@ -60,7 +60,7 @@ header{
 }
 @media (max-width: 420px){
     .tittle__pag{
-        font-size: 38px;
+        font-size: 48px;
     }
     nav{
         display: none;  

@@ -1,11 +1,9 @@
-$mapBotones:(instagram: #E1306C, spotify:#405DE6, twitter: #1DA1F2);
-@each $var, $color in $mapBotones {
-    .#{$var}{
-        color: $color, instagram;
-        
-    } 
-} 
+
 footer{
+    color: white;
+    background-color: black;
+    padding: 10px 0;
+
     p{
         margin: 0;
     }
@@ -22,10 +20,44 @@ footer{
             padding: $paddingFooter;
             justify-items: center;
             border-bottom: 0 5px;
+            a{
+
+                text-decoration: none;
+            &:hover{
+                color: gray;
+                transition: 0.5s;
+            }
+            }
         }
     }
-    .instagram{
-        background-color: map-get($mapBotones, instagram);
+}
+ /*MAPS*/
+ $links:(
+    link__map1: red,
+    link__map2: green,
+    link__map3: yellow,
+);
+@each $rrss, $colors in $links {
+    #{$links} {
+        color: $colors;
     }
-    
+}
+
+@media (max-width: 420px){
+footer{
+    p{
+        margin: 3px auto;
+        font-size: 12px;
+    }
+    ul{
+        width: 100%;
+        margin: 10px auto;
+        font-size: 14px;
+    }
+    .redes{
+        width: 100%;
+        margin: 5px auto;
+        display: flex;
+        justify-content: center;
+    }
 }

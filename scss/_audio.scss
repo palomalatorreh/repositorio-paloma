@@ -1,10 +1,5 @@
 section{
-    .tittle__table{
-        text-align: center;
-        color: white;
-        background-color: $colorBlack;
-        padding: $paddingTitulos;
-        margin: 0 auto;
+    @extend .tittle__table;
     }
     div .container__audio{
         display: flex;
@@ -19,7 +14,7 @@ section{
         height: 100px;
         opacity: 0.9;
         padding: 15px 0;
-        border-bottom: 4px solid $colorBlack;
+        border-bottom: 4px solid black;
     }
 }
 @media (max-width: 420px){

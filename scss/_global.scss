@@ -15,11 +15,11 @@ body{
 }
 .e_shop{
     width: $widthPag;
-    background-image: url(./img/fondotripy.jpg);
+    background-image: url(../img/);
 }
 .musica{
     width: $widthPag;
-    background-image: url(./img/fond.jpg);
+    background-image: url(../img/street-g60e5ce1bf_1280.png);
 }
 .vivo{
     width: $widthPag;
@@ -33,6 +33,7 @@ body{
     width: $widthPag;
     background-image: url(./img/chain.jpg);
 }
+
 
 @media (max-width: 820px){
     body{
