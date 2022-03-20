@@ -1,11 +1,11 @@
 section{
     @extend .tittle__table;
     }
-    div .container__audio{
+    .audio__container{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(./img/aquados.jpg);
+        background-image: url(../img/chain.jpg));
         height: 100px;
     }
 }

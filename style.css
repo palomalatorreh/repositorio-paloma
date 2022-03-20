@@ -19,7 +19,7 @@ body{
 }
 .musica{
     width: 100%;
-    background-image: url(./img/fond.jpg);
+    background-image: url(./img/vibrant-neon-colorful-liquid-background.jpg);
 }
 .vivo{
     width: 100%;
@@ -98,11 +98,11 @@ nav .navItem {
     color: white;
     background-color: rgba(0, 0, 0, 1);
 }
-.container__audio{
+.audio__container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/aquados.jpg);
+    background-image: url(./img/chain.jpg);
     height: 100px;
 }
 .container__cards{
@@ -325,43 +325,43 @@ footer a:hover{
 
 @media (max-width: 820px){
     body{
-        font-size: 14px;
+        font-size: 20px;
     }
     .tittle__pag{
         font-size: 80px;
     }
     footer p{
-            margin: 0;
-        }
-        footer ul {
-            display: flex;
-            list-style: none;
-            margin: 0 auto;
-            margin-bottom: 10px;
-            padding: 0 2px;
-            display: flex;
-            justify-content: center;
-        }
-        footer ul li{
-            margin: 0 20px;
-            padding: 0 5px;
-            justify-items: center;
-            border-bottom: 0 5px;
-        }
-        footer a{
-            color: white;
-            text-decoration: none;
-        }
-        footer a:hover{
-            color: gray;
-            transition: 0.5s;
-        }
-        footer .redes{
-            width: 100%;
-            margin: 5px auto;
-            display: flex;
-            justify-content: space-around;
-        }
+        margin: 0;
+    }
+    footer ul {
+        display: flex;
+        list-style: none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 0 2px;
+        display: flex;
+        justify-content: center;
+    }
+    footer ul li{
+        margin: 0 20px;
+        padding: 0 5px;
+        justify-items: center;
+        border-bottom: 0 5px;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color: gray;
+        transition: 0.5s;
+    }
+    footer .redes{
+        width: 100%;
+        margin: 5px auto;
+        display: flex;
+        justify-content: space-around;
+    }
 
     /*MEDIA 820 INICIO*/
     .about__tittle{
@@ -376,7 +376,7 @@ footer a:hover{
         padding: 0 auto;
     }
     .hero{
-    border-bottom: 4px solid black;
+        border-bottom: 4px solid black;
     }
     .fondo iframe{
         margin: 0 auto;
@@ -399,8 +399,11 @@ footer a:hover{
         padding: 15px 0;
         border-bottom: 4px solid black;
     }
+    .tittle__song{
+        font-size: 16px;
+    }
     .albumesTittle{
-        font-size: 24px;
+        font-size: 18px;
         margin: 20px auto;
     }
     /*MEDIA 820 EN VIVO*/
@@ -445,7 +448,7 @@ footer a:hover{
         padding: 10px 100px;
     }
     .tittle__table{
-        font-size: 14px;
+        font-size: 22px;
     }
 
     /*Musica*/
@@ -467,7 +470,6 @@ footer a:hover{
     }
 
     /*E-SHOP*/
-
     footer ul {
         list-style: none;
         margin: 0;
@@ -475,6 +477,12 @@ footer a:hover{
         display: flex;
         justify-items: center;
 }
+    footer .redes{
+        width: 100%;
+        margin: 15px auto;
+        display: flex;
+        justify-content: space-around;
+    }
 
 @media (max-width: 420px){
     body{
@@ -504,6 +512,7 @@ footer a:hover{
     footer a{
         color: white;
         text-decoration: none;
+        margin-bottom: 15px;
     }
     footer a:hover{
         color: gray;
@@ -511,14 +520,9 @@ footer a:hover{
     }
     footer .redes{
         width: 100%;
-        margin: 5px auto;
+        margin: 15px auto;
         display: flex;
         justify-content: space-around;
-    }
-    .redes button{
-        width: 40px;
-        height: 40px;
-        margin: 0 5px;
     }
     /*MEDIA 420 INICIO*/
     .about__tittle{
@@ -557,7 +561,7 @@ footer a:hover{
         border-bottom: 4px solid black;
     }
     .tittle__table{
-        font-size: 18px;
+        font-size: 20px;
     }
     /*MUSICA*/
     .albumes{
