@@ -2,6 +2,9 @@ section{
     form{
         color: white;
     }
+    .contact{
+        margin: 0 5px;
+    }
     button[type="submit"]{
         font-weight: bold;
         color: rgb(36, 34, 34);
@@ -15,3 +18,8 @@ section{
     }
 }
 
+@media (max-width: 420px){
+    .contact{
+        margin: 0 5px;
+    }
+}
