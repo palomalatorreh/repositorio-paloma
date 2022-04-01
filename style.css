@@ -43,6 +43,8 @@ header{
     font-family: hungry_hunters;
     font-size: 140px;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 nav .navbar{
     display: flex;
@@ -403,7 +405,7 @@ footer a:hover{
         font-size: 16px;
     }
     .albumesTittle{
-        font-size: 18px;
+        font-size: 22px;
         margin: 20px auto;
     }
     /*MEDIA 820 EN VIVO*/
@@ -450,7 +452,6 @@ footer a:hover{
     .tittle__table{
         font-size: 22px;
     }
-
     /*Musica*/
     .albumes{
         display: grid;
@@ -612,5 +613,6 @@ footer a:hover{
     .contact{
         margin: 0 5px;
     }
+
 }
 }
